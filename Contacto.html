@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Crimson+Text&family=Indie+Flower&family=Manrope&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" sizes="64x64" href="imagenes/favicon-32x32.png">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/contactos.css">
     <script src="https://kit.fontawesome.com/300c0d6f5c.js" crossorigin="anonymous"></script>
     <title>Intregal Fitness | Contactos</title>
 </head> 
@@ -17,29 +17,25 @@
     <div class="logo"><img src="Imagenes/integral-fitnes-transparente.PNG" width="230" height="100" alt="Logo">
     </div>
     <nav>
-        <a href="index.html">Inicio</a>
-        <a href="Actividades.html">Actividades</a>
-        <a href="Aranceles.html">Aranceles</a>
-        <a href="Ubicacion.html">Sedes</a>
-        <a href="Contacto.html">Contactos</a>
+        <a class="nav" href="index.html"><i class="fa-solid fa-house"></i></a>
+        <a class="nav" href="Actividades.html">Actividades</a>
+        <a class="nav" href="Aranceles.html">Aranceles</a>
+        <a class="nav" href="Ubicacion.html">Sedes</a>
+        <a class="nav" href="Contacto.html">Contactos</a>
     </nav>
 </header>
 <menu>
     <h2>Dejanos tus datos que nosotros nos contactamos con vos</h2>
     <form action="https://formsubmit.co/tpobligatorio@gmail.com " method="POST">
-    <label for="Nombre">Nombre:</label> <input type="text" name="Nombre" placeholder="Ingrese su nombre" > <br>
+    <div class="contacto">
+        <label for="Nombre">Nombre:</label> <input type="text" name="Nombre" placeholder="Ingrese su nombre" > <br>
     <label for="Apellido">Apellido:</label> <input type="text" name="Apellido" placeholder="Ingrese su apellido"> <br>
-    <label for="Celular">Teléfono:</label> <input type="number" name="Teléfono" placeholder="Ingrese su número de teléfono"> <br>
-    <label for="Mail">Email:</label> <input type="email" name="emil" placeholder="Ingrese su Email"> <br>
-    <p>Género
-        <input type="radio" name="gender" value="Hombre" checked>Hombre
-        <input type="radio" name="gender" value="Mujer" checked> Mujer
-        <input type="radio" name="gender" value="Otro"checked> Otro
-    </p>
+    <label for="Celular">Teléfono:</label> <input type="text" name="Teléfono" placeholder="Ingrese su número de teléfono"> <br>
+    <label for="Mail">Email:</label> <input type="email" name="Correo Electrónico" placeholder="Ingrese su Correo Electrónico"> <br>
+    </div>
     <input type="submit" value="Enviar">
-    <input type="hidden" name="_next" value="https://cmartinf.github.io/">
     <input type="hidden" name="_captcha" value="false">
-
+    <input type="hidden" name="_next" value="https://cmartinf.github.io/TPO/index.html">
 </form>
 </menu>
 <footer>
