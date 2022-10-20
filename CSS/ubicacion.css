@@ -26,6 +26,59 @@ nav :hover {
     color: black;
     font-size: 26px;
 }
+main{	display:block;
+	height:1050px;
+	background-color:#E6E6E6;
+	padding:20px 25px 20px 40px;
+}
+
+
+section{ background-color: white;
+          height: 650px;
+        }
+          
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 10px;
+    background-color: #4D4D4D;
+    padding: 15px;
+  }
+  
+  .grid-container > div {
+    background-color: #ddd7d7;
+    padding: 5px 1px 1px 1px;
+    font-size: 20px;
+    height: auto;
+  }
+  
+.item1{grid-column: 1/5; grid-row: 1 ;}
+.item2 {grid-column: 5/12; grid-row: 1;}
+.item3 {grid-column: 1/5; grid-row: 2;}
+.item4 {grid-column: 5/12; grid-row: 2;}
+.item5 {grid-column: 1/5; grid-row: 3;}
+.item6 {grid-column: 5/12; grid-row: 3;}
+
+
+footer{
+	height:60px;
+	color:white;
+	line-height:60px;
+	text-align:center;
+	background-color:#0c0707;
+}
+
+
+div {
+    text-align: center
+    
+  }
+
+p{
+    text-align: center
+    
+  }
+
 footer {
     background-color: black;
     width: 100%;

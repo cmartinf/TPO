@@ -5,6 +5,7 @@
 }
 header {
     background-color: black;
+    display: block;
 }
 nav {
     background-color: red;
@@ -26,6 +27,100 @@ nav :hover {
     color: black;
     font-size: 26px;
 }
+main{display:block;
+	height:auto;
+	background-color: grey;
+	padding:50px 25px 20px 40px;
+    border: black solid;
+    
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+div{
+	height: 5px;
+	padding: 50px;
+	margin-bottom: 50px;	
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.caja {
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	-webkit-transition:all .3s;
+	transition: all .3s;
+
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+.caja:hover{
+	box-shadow: 20px 20px 20px rgba(206, 201, 201, 0.2);
+	-moz-transform: rotate(2deg) scale(1.2, 1.2) translate(-10px, -10px);
+	-ms-transform: rotate(2deg) scale(1.2, 1.2) translate(-10px, -10px);
+	-o-transform: rotate(2deg) scale(1.2, 1.2) translate(-10px, -10px);
+	-webkit-transform: rotate(2deg) scale(1.2, 1.2) translate(-30px, -30px);
+	transform: rotate(2deg) scale(1.2, 1.2) translate(-30px, -30px);
+	background-color: #b64242;
+}
+
+.caja2 {
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	-webkit-transition:all .3s;
+	transition: all .3s;
+
+}
+
+.caja2:hover{
+	box-shadow: 20px 20px 20px rgba(0, 0, 0, .2);
+	-moz-transform: rotate(2deg) scale(1.2, 1.2) translate(-10px, -10px);
+	-ms-transform: rotate(2deg) scale(1.2, 1.2) translate(-10px, -10px);
+	-o-transform: rotate(2deg) scale(1.2, 1.2) translate(-10px, -10px);
+	-webkit-transform: rotate(2deg) scale(1.2, 1.2) translate(-30px, -30px);
+	transform: rotate(2deg) scale(1.2, 1.2) translate(-30px, -30px);
+	background-color: #1c0d0d;
+    color: #ea0d0d;
+}
+
+.caja3{
+	-moz-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.caja3:hover{
+	background-color: #ea0d0d;
+	border-color: rgb(18, 13, 14);
+	font-size: 20px;
+}
+
+.caja4{
+	-moz-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.caja4:hover{background: url(../IMG/pileta\ nueva.jpg);
+    background-size: 100%;
+	border-color: rgb(18, 13, 14);
+	font-size: 20px;
+    color: white;
+}
+
 footer {
     background-color: black;
     width: 100%;

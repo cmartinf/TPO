@@ -39,6 +39,13 @@ input[type=text], input[type="email"]{
     border-radius: 5px;
     box-sizing: border-box;
     cursor: pointer;
+    background-color: gray;
+}h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+::placeholder {
+    color: red;
 }
 
 input[type=submit]{
@@ -48,12 +55,12 @@ input[type=submit]{
     margin: 15px 15px 30px 50px;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 300px;
 }
 input[type=submit]:hover{
     background-color: red;
 }
 .contacto{
-    background-color:rgb(197, 191, 191);
     padding: 10px ;
     margin: 50px 20px 15px 20px;
     border-radius: 5px;
