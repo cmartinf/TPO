@@ -52,7 +52,7 @@ li a, li a:hover{
     display: none;
 }
 .banner{
-    background: linear-gradient(to right, rgba(165, 49, 49, 0.87), rgba(66, 65, 65, 0.7)), url(/TPOFINAL/Imagenes/gym1.jpg)	no-repeat;
+    background: linear-gradient(to right, rgba(165, 49, 49, 0.87), rgba(66, 65, 65, 0.7)), url(/TPO/Imagenes/gym1.jpg)	no-repeat;
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 80px);
