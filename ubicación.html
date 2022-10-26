@@ -7,12 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Crimson+Text&family=Indie+Flower&family=Manrope&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="CSS/contacto.css">
+    <link rel="stylesheet" href="CSS/ubicacion.css">
     <script src="https://kit.fontawesome.com/300c0d6f5c.js" crossorigin="anonymous"></script>
-   
-    <title>Integral Fitness|Contacto</title>
+    <title>Integral Fitness|Ubicación</title>
 </head>
 <body>
+    
     <header>
         <nav>
             <a href="#" class="enlace">
@@ -29,36 +29,8 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
+        <div id="map" ></div>
+        <script src="JAVA/script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
     </header>
-        <div class="container">
-        
-           <form action="" method="POST" id="form">
-           <div class="form" >
-            <div class="input-group">
-              <label>Nombre</label>
-              <input type="text" name="" id="name" placeholder="Ingrese su nombre y apellido">
-            </div>
-      
-            <div class="input-group">
-              <label>Teléfono</label>
-              <input type="tel" id="telefono" placeholder="11 1234 5678">
-            </div>
-      
-            <div class="input-group">
-              <label>Email</label>
-              <input type="email" id="email" placeholder="Ingrese su correo electrónico">
-            </div>   
-      
-            <div class="input-group">
-              <label>Mensaje</label>
-              <textarea rows="5" placeholder="Dejenos tu mensaje"></textarea>
-            </div>
-      
-          <button type="submit">Enviar</button>
-        </div>
-    </div>
-        </form>
-        <script src="JAVA/contacto.js"></script>
-    </body>
-
-    </html>
+   
