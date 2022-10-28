@@ -6,7 +6,7 @@ form.addEventListener ("submit", e=>{
     if(nombre.value.length <5){
        alert ("Nombre Corto")
     }
-    if(telefono.value.length =11){
+    if(telefono.value.length <10){
         alert ("Telefono incorrecto")
     } 
 } )
